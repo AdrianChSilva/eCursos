@@ -1,0 +1,109 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Hind+Vadodara");
+
+// Variables
+@import "variables";
+
+@import "card";
+
+@import "related";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+body {
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+main {
+    min-height: 87vh;
+}
+
+.footer {
+    width: 100%;
+    background-color: #4c515c;
+    color: #fff;
+    padding: 30px;
+}
+
+header .navbar-laravel {
+    background-color: $app-bg-color;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+    .nav-link, .navbar-brand {
+        color: #fff !important;
+    }
+}
+
+.btn-github {
+    background-color: #333333;
+    color: #fff;
+}
+
+.btn-github:hover {
+    background-color: #4C515C;
+    color: #fff;
+}
+
+.btn-facebook {
+    background-color: #415993;
+    color: #fff;
+}
+
+.btn-facebook:hover {
+    background-color: #3881C4;
+    color: #fff;
+}
+
+.btn-more-info-course {
+    background-color: #F3AF59;
+    color: #fff;
+}
+
+.btn-more-info-course:hover {
+    background-color: #F3AF59;
+    color: #fff;
+}
+
+.btn-course, .btn-course:hover {
+    background-color: $app-bg-color;
+    color: #fff;
+}
+
+.card-header {
+    text-align: center;
+}
+
+.badge-cat {
+    font-size: 14px;
+}
+
+.yellow {
+    color: #ffc107;
+}
+
+.badge-box > i {
+    background-color: $app-bg-color !important;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: $app-bg-color;
+    border-color: #1b1e21;
+}
+
+.page-link, .page-link:hover {
+    color: $app-bg-color;
+}
+
+.btn-subscribe, .btn-subscribe:hover {
+    background-color: $app-bg-color !important;
+    color: #fff;
+    font-size: 24px !important;
+}
+
+.bg-light {
+    border: 1px solid $app-bg-color;
+    text-align: center;
+}
